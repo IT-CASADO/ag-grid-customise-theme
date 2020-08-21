@@ -1,3 +1,13 @@
-.my-theme {
+// theme-light
+$my-color: #123456;
+
+.my-theme-light {
+  @import "theme";
+}
+
+// theme-dark
+$my-color: #654321;
+
+.my-theme-black {
   @import "theme";
 }
